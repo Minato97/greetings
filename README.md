@@ -20,7 +20,7 @@ import (
 )
 
 func main() {
-    message, err := greetings.hello("Macrino")
+    message, err := greetings.Hello("Macrino")
 
     if err != nil {
         fmt.Println("Ocurrió un error:", err)
