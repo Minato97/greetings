@@ -5,7 +5,7 @@ Este paquete proporciona una forma simple de obtener saludos personalizados en G
 ## Instalación 
 Ejecuta el siguiente comando para instalar el paquete:
 ```bash
-go get -u github.com/alexroel/greetings
+go get -u github.com/Minato97/greetings
 ```
 
 ## Uso
@@ -20,7 +20,7 @@ import (
 )
 
 func main() {
-    message, err := greetings.Hello("Alex")
+    message, err := greetings.Hello("Macrino")
 
     if err != nil {
         fmt.Println("Ocurrió un error:", err)
@@ -31,4 +31,4 @@ func main() {
 }
 
 ```
-Este ejemplo importa el paquete github.com/alexroel/greetings y llama a la función Hello para obtener un saludo personalizado. Si ocurre un error, se imprime un mensaje de error.
+Este ejemplo importa el paquete github.com/Minato97/greetings y llama a la función Hello para obtener un saludo personalizado. Si ocurre un error, se imprime un mensaje de error.
